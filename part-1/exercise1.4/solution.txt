@@ -1,0 +1,7 @@
+1) Running the container
+   docker run -it --name my-ubuntu ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
+2) Fixing the curl not installed problem
+   docker exec -it my-ubuntu bash
+   apt-get update
+   apt-get -y install curl
