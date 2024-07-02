@@ -1,0 +1,1 @@
+$ docker run -v "C:\Users\RPurohit2\Desktop\Learning\devopswithdocker\devopswithdocker\part-1\sandbox\e1.9\text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
